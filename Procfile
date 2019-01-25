@@ -1,0 +1,1 @@
+bot: ruby iku_git.rb
