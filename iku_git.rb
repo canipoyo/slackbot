@@ -7,5 +7,5 @@ end
 client = Slack::Web::Client.new
 loop do
     client.chat_postMessage(channel: 'bottest', text: "イク", as_user: true)
-    sleep(1)
+    sleep(60)
 end
